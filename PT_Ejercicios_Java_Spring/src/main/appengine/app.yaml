@@ -1,0 +1,11 @@
+application: impactful-ring-290419
+version: 1
+runtime: java
+env: flex
+
+handlers:
+- url: /api/student
+  script: this field is required, but ignored
+
+manual_scaling:
+  instances: 1

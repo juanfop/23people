@@ -24,6 +24,7 @@ import com.prueba.springboot.rest.service.StudentServiceImpl;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(value = StudentRestController.class)
+
 public class StudentRestControllerTest {
 	
 	@Autowired
